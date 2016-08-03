@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+  <div class="alert alert-success">
+    <strong>Success!</strong> Successful or positive action.
+  </div>
   <div class="container">
     <div class="jumbotron">
       <h1>Portfolio</h1>
@@ -16,10 +18,7 @@
     </div>
   </div>
   <div class="container-fluid">
-    <div class="jumbotron">
-      <h1>Primary text <small>Secondary text</small></h1>
-      <button class="btn btn-default" type="submit">Button</button>
-    </div>
+    <button class="btn btn-primary btn-lg disabled" type="submit">Button</button>
   </div>
   <div class="row">
     <div class="col-sm-4">
@@ -34,7 +33,23 @@
     <div class="col-sm-4">
       <div class="well">Basic Well</div>
     </div>
-
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <button type="button" class="btn btn-info">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </button>
+    </div>
+    <div class="col-sm-4">
+      <a href="#" class="btn btn-secondary btn-lg">
+      <span class="glyphicon glyphicon-envelope"></span> Print
+    </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#" class="btn btn-success btn-lg">
+        <span class="glyphicon glyphicon-print"></span> Print
+      </a>
+    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
