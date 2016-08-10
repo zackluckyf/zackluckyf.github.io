@@ -1,0 +1,67 @@
+
+/* Designed to fit bigger screens naturally */
+@media only screen and (max-width: 1200px){
+
+}
+
+/* Handles 700px to 900px */
+@media only screen and (max-width: 900px){
+
+    html{font-size: 22px;}
+    h1 {font-size: 250%;}
+    h2 {font-size: 210%;}
+    h3 {font-size: 170%;}
+    p {font-size: 80%;}
+    .social-buttons {font-size: 80%;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        margin: 5px 5px;
+    }
+    .work-preview img{height: 550px;}
+}
+
+/* Handles 480px to 700px */
+@media only screen and (max-width: 700px){
+    html{font-size: 20px;}
+    h1 {font-size: 200%;}
+    h2 {font-size: 170%;}
+    h3 {font-size: 140%;}
+    .main-nav{display: none}
+    .mobile-nav-icon{display: inline-block;}
+    .main-nav {
+        margin-top: 45px;
+        margin-right: -40px;
+    }
+    .main-nav li{display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 2px 0;
+    }
+    .social-buttons {font-size: 60%;}
+    .my-picture {width: 70%;}
+    .about-paragraph-width {width: 80%;}
+    .title-page {height: 600px;}
+    .contact-page {height: 550px;}
+    .work-preview img{height: 400px;}
+    .portfolio-page {height: 600px;}
+}
+/* Handles everything less than 480px */
+@media only screen and (max-width: 480px){
+    html{font-size: 18px;}
+    .social-buttons {font-size: 55%;}
+    .my-picture {width: 70%;}
+    .about-paragraph-width {width: 90%;}
+    h1 {font-size: 180%;}
+    h2 {font-size: 140%;}
+    h3 {font-size: 100%;}
+    .title-page {height: 500px;}
+    .about-page {height: 650px;}
+    .portfolio-page {height: 650px;}
+    .contact-page {height: 450px;}
+    .bottom-nav:last-child{margin-right: 0;}
+    .footer{font-size: 95%;}
+    .portfolio-page {height: 450px;}
+    .work-preview img{height: 250px;}
+}

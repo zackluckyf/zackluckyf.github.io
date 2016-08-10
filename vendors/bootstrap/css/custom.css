@@ -1,0 +1,30 @@
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size: 300%;
+}
+
+p{
+    color: white;
+    font-size: 100%;
+}
+
+h2{
+    font-size: 250%;
+    color: white;
+}
+
+h3{
+    font-size: 200%;
+    color: white;
+}
+
