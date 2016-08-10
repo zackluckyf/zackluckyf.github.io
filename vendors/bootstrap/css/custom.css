@@ -1,9 +1,9 @@
-a{
+h1 a,h2 a,h3 a{
     color:white;
     text-decoration: none;
 }
 
-a:hover{
+h1 a:hover,h2 a:hover,h3 a:hover{
     color: white;
     text-decoration: none;
 }
