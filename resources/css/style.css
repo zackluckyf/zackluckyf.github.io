@@ -332,7 +332,7 @@ h3{
     height: 600px;
     max-width: 70vw;
     float: center;
-    opacity: 0.5;
+    opacity: 0.6;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
