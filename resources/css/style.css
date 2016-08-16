@@ -4,7 +4,11 @@
 
 
 /* ---------------------------------------- */
+
+
 /* BASIC SETUP */
+
+
 /* ---------------------------------------- */
 
 * {
@@ -12,9 +16,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.clearfix {zoom:1}
-.clearfix:after{
+.clearfix {
+    zoom: 1
+}
+.clearfix:after {
     content: ".";
     display: block;
     clear: both;
@@ -23,121 +28,101 @@
 }
 
 /* ---------------------------------------- */
+
+
 /* HEADINGS */
+
+
 /* ---------------------------------------- */
 
-html{
-    color: white;
+html {
+    color: red;
     font-family: "Lato", sans-serif;
     font-size: 24px;
 }
-
-p{
+p {
     font-size: 80%;
     font-weight: 300;
 }
-h1{
+h1 {
     padding-top: 5%;
     font-size: 300%;
     font-weight: 300;
 }
-
-h2{
+h2 {
     padding-top: 3%;
     font-size: 250%;
     font-weight: 300;
 }
-
-h3{
+h3 {
     padding-top: 3%;
     font-size: 200%;
     font-weight: 300;
 }
 
 /* ---------------------------------------- */
+
+
 /* HEADER */
+
+
 /* ---------------------------------------- */
 
 .header {
     margin: 0px 0px 0px 0px;
-    height: 60px;
+    height: 40px;
     width: 100%;
     position: fixed;
     top: 0px;
-    background: black; /* For browsers that do not support gradients */
+    background: black;
+    /* For browsers that do not support gradients */
     background: #7f8c8d;
     z-index: 99999;
+    border-bottom: 1px black solid;
 }
-
-
-
-.header-name{
-    float: left;
-    margin-top: 20px;
-    margin-left: 15px;
-}
-
-.main-nav{
-    float: right;
+.main-nav {
     list-style: none;
-    margin-top: 18px;
+    margin: 8px auto;
+    width: 310px;
     padding-bottom: 3px;
     background: rgba(127, 140, 141, 1);
 }
 
-/* Mobile Navi */
-.mobile-nav-icon{
-    float: right;
-    margin-top: 5px;
-    margin-right: 10px;
-    cursor: pointer;
-    display: none;
-}
-
-.mobile-nav-icon i{
-    font-size: 200%;
-    color: white;
-}
-
 /* Main Navi */
 
-.main-nav li{
+.main-nav li {
     display: inline-block;
     font-weight: 300;
 }
-
-.main-nav:last-child{
+.main-nav:last-child {
     padding-right: 5px;
 }
-
-.main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:link, .main-nav li a:visited {
     margin: 0px 15px;
     padding-bottom: 3px;
     text-decoration: none;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
-    color: white;
+    color: black;
 }
-
-.main-nav li a:hover,
-.main-nav li a:active{
+.main-nav li a:hover, .main-nav li a:active {
     border-bottom: 2px solid #34b9ff;
 }
-
-.anchor{
+.anchor {
     text-decoration: none;
     padding-top: 60px;
 }
-
-.anchor:hover{
-
+.anchor:hover {
     cursor: default;
 }
 
 /* ---------------------------------------- */
+
+
 /* PAGES */
+
+
 /* ---------------------------------------- */
 
 .container {
@@ -152,68 +137,53 @@ h3{
 .title-page {
     background-repeat: no-repeat center center fixed;
     width: 100%;
-    height: 700px;
-    margin-top:40px;
+    height: 500px;
+    margin-top: 40px;
     display: block;
-    background:  -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(img/skyline-min.jpeg);
-    background:  -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(img/skyline.jpeg);
-    background:  linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(img/skyline.jpeg);
+    background-color: white;
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
 }
-
-.motto{
-    margin-top: 5%;
+.cwt-img {
+    max-width: 100%;
 }
-
 .social-buttons {
     display: inline-block;
     margin-top: 5%;
     width: 100%;
     font-weight: 400;
 }
-
-.social-buttons a{
+.social-buttons a {
     text-decoration: none;
 }
-
-.small-icon{
+.small-icon {
     padding-right: 3px;
 }
-
-.git-button{
+.git-button {
     color: black;
     background-color: rgb(87, 87, 87);
-    width: 13%;
+    background: #7f8c8d;
+    height: 25px;
+    width: 110px;
     margin: auto;
     border: 1px solid black;
     border-radius: 5px;
-    margin-top: 7%;
+    margin-top: 1%;
     -webkit-transition: color 0.2s, background-color 0.2s, border 0.2s;
     transition: color 0.2s, background-color 0.2s, border 0.2s;
 }
-
-.git-button:hover,
-.git-button:active{
-    color: white;
+.git-button:hover, .git-button:active {
+    color: silver;
     background-color: black;
-    border: 1px solid white;
+    border: 1px solid silver;
 }
-
-.linkedin-button{
+.linkedin-button {
     color: black;
     background-color: rgb(87, 87, 87);
-    width: 16%;
+    background: #7f8c8d;
+    height: 25px;
+    width: 130px;
     margin: 2% auto;
     border: 1px solid black;
     border-radius: 5px;
@@ -221,18 +191,17 @@ h3{
     -webkit-transition: color 0.2s, background-color 0.2s, border 0.2s;
     transition: color 0.2s, background-color 0.2s, border 0.2s;
 }
-
-.linkedin-button:hover,
-.linkedin-button:active{
+.linkedin-button:hover, .linkedin-button:active {
     color: #007bb6;
     background-color: black;
     border: 1px solid #007bb6;
 }
-
-.fcc-button{
+.fcc-button {
     color: black;
     background-color: rgb(87, 87, 87);
-    width: 22%;
+    background: #7f8c8d;
+    height: 25px;
+    width: 150px;
     margin: 2% auto;
     border: 1px solid black;
     border-radius: 5px;
@@ -240,57 +209,33 @@ h3{
     -webkit-transition: color 0.2s, background-color 0.2s, border 0.2s;
     transition: color 0.2s, background-color 0.2s, border 0.2s;
 }
-
-.fcc-button:hover,
-.fcc-button:active{
+.fcc-button:hover, .fcc-button:active {
     color: #006d00;
     background-color: black;
     border: 1px solid #006d00;
 }
-
 
 /* -------- ABOUT -------- */
 
 .about-page {
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    height: 400px;
     margin: 0px;
-    background: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(img/dark-buildings-min.jpeg);
-    background: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(img/dark-buildings.jpeg);
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),url(img/dark-buildings.jpeg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
 }
-
 .my-picture {
-    width: 49%;
-    float: left;
-    padding: 10%;
-}
-
-.my-picture img{
     height: auto;
-    width: auto
+    width: 30vw;
+    margin: 0 auto;
 }
-
 .about-paragraph-width {
-    width: 50%;
     text-align: left;
-    padding-top: 8%;
-    padding-left: 8%;
-    float: left;
+    padding-left: 20px;
 }
 
 /* -------- PORTFOLIO -------- */
@@ -298,38 +243,24 @@ h3{
 .portfolio-page {
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    height: 500px;
     margin: 0px;
-    background-image:  -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ), url(img/gears-min.jpg);
-    background-image:  -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ), url(img/gears.jpg);
-    background-image:  linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ), url(img/gears.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
 }
-
-.work-preview{
+.work-preview {
     width: 100%;
     margin: 0;
     overflow: hidden;
 }
-
-.work-preview a{
+.work-preview a {
     cursor: pointer;
 }
-
-.work-preview img{
-    height: 600px;
+.work-preview img {
+    height: 300px;
     max-width: 70vw;
     float: center;
     opacity: 0.6;
@@ -340,26 +271,28 @@ h3{
     transition: transform 0.5s, opacity 0.5s;
     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
-
-.work-preview img:hover{
+.work-preview img:hover {
     opacity: 1;
 }
 
 /* -------- CONTACT -------- */
 
+h3 a {
+    cursor: pointer;
+}
+.email {}
 .contact-page {
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    height: 500px;
     margin: 0px;
-    background: url(img/desert-horizon-min.jpeg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
 }
-
-.contact-page h3{
+.contact-page h3 {
     padding-top: 5%;
 }
 
@@ -371,43 +304,36 @@ h3{
     background: linear-gradient(rgba(87, 87, 87, 1), rgba(127, 140, 141, 1));
     background-repeat: no-repeat;
     width: 100%;
-    height: 60px;
+    height: 30px;
     background-size: cover;
+    overflow: hidden;
 }
-
-.copyright{
+.copyright {
     float: right;
-    margin: 20px 0;
+    margin: 10px;
     font-size: 50%;
     font-weight: 300;
-    padding-right: 10px;
 }
-
-.bottom-nav{
+.bottom-nav {
     float: left;
     list-style: none;
     padding-left: 10px;
-    padding-top: 16px;
+    padding-top: 3px;
 }
-
-.bottom-nav li{
+.bottom-nav li {
     display: inline-block;
     font-weight: 300;
     padding: 0;
 }
-
-.bottom-nav li a:link,
-.bottom-nav li a:visited{
+.bottom-nav li a:link, .bottom-nav li a:visited {
     text-decoration: none;
     border-bottom: 2px solid transparent;
     margin-right: 8px;
     font-size: 80%;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
-    color: white;
+    color: silver;
 }
-
-.bottom-nav li a:hover,
-.bottom-nav li a:active{
+.bottom-nav li a:hover, .bottom-nav li a:active {
     border-bottom: 2px solid #34b9ff;
 }
