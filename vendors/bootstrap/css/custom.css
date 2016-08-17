@@ -23,6 +23,10 @@ h3 {
     color: black;
 }
 #myCarousel {
-    width: 450px;
+    height: auto;
+    width: 750px;
     margin: 0 auto;
+}
+.carousel-indicators {
+    margin-top: 30px;
 }
