@@ -98,36 +98,52 @@ freecodecamp ion-flame
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <figure class="work-preview">
-                        <a href="https://zackluckyf.github.io/tic-tac-toe/" target="_blank"><img src="resources/img/tic-tac-toe.png" alt="tic tac toe"></a>
-                    </figure>
+                <div class="item active video">
+                    <a href="https://zackluckyf.github.io/tic-tac-toe/" target="_blank">
+                        <video autoplay width="auto" height="338" class="thevideo" loop preload="none">
+                            <source src="resources/gifs/Tic-Tac-Toe.webm" type="video/webm">
+                        </video>
+                    </a>
+                </div>
+                <div class="item video">
+                    <a href="https://zackluckyf.github.io/calculator/" target="_blank">
+                        <video autoplay width="auto" height="338" class="thevideo" loop preload="none">
+                            <source src="resources/gifs/Calculator.webm" type="video/webm">
+                        </video>
+                    </a>
+                </div>
+                <div class="item video">
+                    <a href="https://zackluckyf.github.io/pomodoro-clock/" target="_blank">
+                        <video autoplay width="auto" height="338" class="thevideo" loop preload="none">
+                            <source src="resources/gifs/pomodoro-clock.webm" type="video/webm">
+                        </video>
+                    </a>
+                </div>
+                <div class="item video">
+                    <a href="https://zackluckyf.github.io/simon-game/" target="_blank">
+                        <video autoplay width="auto" height="338" class="thevideo" loop preload="none">
+                            <source src="resources/gifs/simon-game.webm" type="video/webm">
+                        </video>
+                    </a>
+                </div>
+                <div class="item video">
+                    <a href="https://zackluckyf.github.io/local-weather-app/" target="_blank">
+                        <video autoplay width="auto" height="338" class="thevideo" loop preload="none">
+                            <source src="resources/gifs/weather-app.webm" type="video/webm">
+                        </video>
+                    </a>
                 </div>
 
-                <div class="item">
-                    <figure class="work-preview">
-                        <a href="https://zackluckyf.github.io/calculator/" target="_blank"><img src="resources/img/calculator.png" alt="calculator"></a>
-                    </figure>
-                </div>
-
-                <div class="item">
-                    <figure class="work-preview">
-                        <a href="https://zackluckyf.github.io/pomodoro-clock/" target="_blank"><img src="resources/img/pomodoro.png" alt="pomodoro clock"></a>
-                    </figure>
-                </div>
-
-                <div class="item">
-                    <figure class="work-preview">
-                        <a href="https://zackluckyf.github.io/simon-game/" target="_blank"><img src="resources/img/simon.png" alt="simon game"></a>
-                    </figure>
-                </div>
-
-                <div class="item">
-                    <figure class="work-preview">
-                        <a href="https://zackluckyf.github.io/local-weather-app/" target="_blank"><img src="resources/img/weather.png" alt="weather app"></a>
-                    </figure>
-                </div>
             </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

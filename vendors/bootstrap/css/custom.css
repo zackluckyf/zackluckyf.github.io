@@ -22,11 +22,48 @@ h3 {
     font-size: 200%;
     color: black;
 }
-#myCarousel {
-    height: auto;
-    width: 750px;
+.carousel-inner {
+    height: 400px;
+    display: block;
     margin: 0 auto;
 }
-.carousel-indicators {
-    margin-top: 30px;
+div#myCarousel.carousel.slide {
+    width: 600px;
+    margin: 0 auto;
+}
+.carousel-indicators li {
+    background-color: red;
+    border: 1px solid black;
+}
+.carousel-indicators .active {
+    background-color: purple;
+}
+ol.carousel-indicators {
+    bottom: 10px;
+}
+.carousel-control:focus, .carousel-control {
+    color: red;
+}
+.carousel-control:hover {
+    color: purple;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+a.left.carousel-control {
+    height: 35px;
+    width: 25px;
+    top: 86%;
+    left: 225px;
+    z-index: 9999;
+}
+a.right.carousel-control {
+    height: 35px;
+    width: 25px;
+    top: 86%;
+    right: 225px;
+    z-index: 9999;
 }

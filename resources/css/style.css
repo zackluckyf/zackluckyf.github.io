@@ -1,7 +1,6 @@
-/*
-    Blue Color: #34b9ff
-*/
-
+video::-webkit-media-controls {
+    display: none !important;
+}
 
 /* ---------------------------------------- */
 
