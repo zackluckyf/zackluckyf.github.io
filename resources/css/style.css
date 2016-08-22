@@ -95,9 +95,7 @@ h3 {
     display: inline-block;
     font-weight: 300;
 }
-.main-nav:last-child {
-    padding-right: 5px;
-}
+
 .main-nav li a:link, .main-nav li a:visited {
     margin: 0px 15px;
     padding-bottom: 3px;
